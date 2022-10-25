@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"microsoft-1840ec3ffe4-6afcab0ca9bfe451": {
+			"provider": "sqlserver",
+			"driver": "microsoft",
+			"name": "axedwh",
+			"save-password": true,
+			"read-only": false,
+			"virtual-model-id": "microsoft-1840ec17d23-5584801984d535ae",
+			"configuration": {
+				"host": "fxbisvr",
+				"port": "1433",
+				"database": "axedwh",
+				"url": "jdbc:sqlserver://;serverName\u003dfxbisvr;databaseName\u003daxedwh",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-all-schemas@": "true"
+				},
+				"auth-model": "sqlserver_database",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
